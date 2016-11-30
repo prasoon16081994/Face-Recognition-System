@@ -9,14 +9,7 @@
 using namespace cv;
 using namespace std;
 
-/*
-1. First time you run the code uncomment the code for putting the eigenfaces into the file.....{line 219 to 237}
-2. This will generate a file inside the dataset folder, then you will have to manually delete the 2 sqaure brackets
-3. From inside the 15 files for the code to run further ......sorry for this trouble..
-4. Do not forget to change the pathname wherever required to 
-5. you will need to download opencv for c++,  watch this video for help (only for mac users)- https://www.youtube.com/watch?v=U49CVY8yOxw
-    similar videos for windows and linux are available
-*/
+
 
 
 //Normalizes a given image into a value range between 0 and 255.
@@ -216,8 +209,7 @@ int main(int argc, const char *argv[])
     
     cout<<"creating files\n";
     
-//storing eigen vectors into a txt files, run this for the first time you run the code, I have already made these files inside dataset folder
-  //uncomment this code to store eigen faces in the file
+
   /*  for(int i=0;i<15;i++)
     {
         ofstream myfile;
